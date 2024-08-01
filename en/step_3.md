@@ -1,7 +1,26 @@
-## What next?
+## Flashing an LED
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+With the help of the `time` library and a loop, you can make the LED flash.
 
-![ProjectName project](images/projectname-project.png)
++ Create a new file by clicking **New**.
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
++ Save the new file by clicking **Save**. Save the file as `gpio_led.py`.
+
++ Enter the following code to get started:
+
+    ```python
+    from gpiozero import LED
+    from time import sleep
+
+    led = LED(17)
+
+    while True:
+        led.on()
+        sleep(1)
+        led.off()
+        sleep(1)
+    ```
+
++ Save the file and run the code with by clicking on **Run**.
+
++ The LED should be flashing on and off. To exit the program click **Stop**.
