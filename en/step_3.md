@@ -1,4 +1,4 @@
-## Flashing an LED
+## Blink an LED
 
 You can use a `while True` loop to make the LED blink on and off.
 

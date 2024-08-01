@@ -1,6 +1,6 @@
-title: default-project-template
+title: Control an LED with a Raspberry Pi Computer
 hero_image: images/banner.png
-description: default-project-template description
+description: Light, blink and pulse and LED with a Raspberry Pi Computer
 version: 4
 listed: false
 copyedit: false
@@ -8,4 +8,5 @@ last_tested: "2022-05-19"
 steps:
   - title: Connect an LED
   - title: Light an LED
-  - title: PWM an LED
+  - title: Blink an LED
+  - title: Pulse an LED
