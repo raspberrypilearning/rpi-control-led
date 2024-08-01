@@ -4,7 +4,7 @@ GPIO Zero is a Python library which provides a simple way to use the GPIO pins o
 
 ![An LED and resistor connected from GPIO 17 to GND on the Raspberry Pi](images/led-gpio17.png)
 
----- task ---
+--- task ---
 
 Open Thonny
 
@@ -13,11 +13,11 @@ Open Thonny
 [[[thonny-install]]]
 [[[thonny-chromebook]]]
 
----- task ---
+--- task ---
 
 Write the following code to use the gpiozero library and set up an LED on pin 17, then turn it on.
 
----- code ---
+--- code ---
 ---
 language: python
 filename: main.py
@@ -36,17 +36,17 @@ red.on()
 
 The above uses the object name `red`, but you can use any name that you like.
 
----- task ---
+--- task ---
 
 Run your code, and your LED should switch on.
 
 --- /task ---
 
----- task ---
+--- task ---
 
 Now you want to switch the LED off again. So add the `time` library to your imports. Then have your program pause for 2 seconds, before turning the LED off again.
 
----- code ---
+--- code ---
 ---
 language: python
 filename: main.py
