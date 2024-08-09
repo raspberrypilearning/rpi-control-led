@@ -7,6 +7,16 @@
   </div><br>
 </html>
 
+--- collapse ---
+---
+title: No YouTube? Download the video!
+---
+
+You can download all the resources for this project, including the above video [by clicking here](https://projects.raspberrypi.org/en/projects/rpi-control-led-go){:target="_blank"}. 
+
+
+--- /collapse ---
+
 
 It is always a good idea to test that your circuit is working, before you write any code. You can test your circuit using a 3V3 and GND pins on the Raspberry Pi.
 
