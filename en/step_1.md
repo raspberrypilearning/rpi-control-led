@@ -12,7 +12,7 @@
 title: No YouTube? Download the video!
 ---
 
-You can download all the resources for this project, including the above video [by clicking here](https://projects.raspberrypi.org/en/projects/rpi-control-led-go){:target="_blank"}. 
+You can download all the resources for this project, including the above video [by clicking here](https://rpf.io/p/en/rpi-control-led-go){:target="_blank"}. 
 
 
 --- /collapse ---
